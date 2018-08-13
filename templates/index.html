@@ -4,13 +4,13 @@
     <form id="form_converte" action="{{ url_for('converter') }}" method="post">
         <div class="col-sm-6">
             <div class="form-group">
-                <label for="texto_um">Texto um:</label>
+                <label for="texto_um">Entrada:</label>
                 <textarea class="form-control" rows="20" name="texto_um"  id="texto_um"></textarea>
             </div>
         </div>
         <div class="col-sm-6">
             <div class="form-group">
-                <label for="texto_dois">Texto dois:</label>
+                <label for="texto_dois">Saida:</label>
                 <textarea class="form-control" rows="20"  id="texto_dois">{{ texto }}</textarea>
             </div>
         </div>
